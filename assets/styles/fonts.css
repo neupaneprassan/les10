@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,140;1,140&family=Gloock&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,140;1,140&family=Gloock&family=Oldenburg&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,140;1,140&family=Gloock&family=Oldenburg&family=Red+Rose:wght@300..700&display=swap");
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.montserrat-semibold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.appTitle {
+  font-size: 1.2em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+}
+
+.pagetitle {
+  font-size: 5em;
+  font-family: "Crimson Pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+}
+
+.contenthead {
+  font-size: 2em;
+  font-family: "Crimson Pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+}
+
+.contentrender {
+  font-size: 20px;
+  font-family: "Crimson Pro", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 25px;
+}
+
+.drawer {
+  font-size: 40px;
+  font-family: "Crimson Pro", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+}
+
+.pagetitle {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #ffffff 29%,
+    #ff1361 67%,
+    #231557 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 110px;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.Prassan {
+  font-size: 5em;
+  font-family: "Crimson Pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+}
+
+.Prassan {
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #ffffff 29%,
+    #ff1361 67%,
+    #231557 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 210px;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
